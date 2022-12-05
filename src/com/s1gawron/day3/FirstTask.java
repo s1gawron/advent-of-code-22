@@ -36,6 +36,7 @@ public class FirstTask {
                 commonElementsPrioritySum += getCommonElementPriority(firstCompartmentSet);
             }
 
+            scanner.close();
             System.out.println("Sum: " + commonElementsPrioritySum);
         } catch (FileNotFoundException e) {
             System.out.println("Cannot read file");

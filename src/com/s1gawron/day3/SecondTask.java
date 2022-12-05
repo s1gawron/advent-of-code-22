@@ -31,6 +31,7 @@ public class SecondTask {
                 badgesPrioritySum += getCommonElementPriority(firstBackpackSet);
             }
 
+            scanner.close();
             System.out.println("Sum: " + badgesPrioritySum);
         } catch (FileNotFoundException e) {
             System.out.println("Cannot read file");
